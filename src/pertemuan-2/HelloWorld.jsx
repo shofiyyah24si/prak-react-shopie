@@ -15,7 +15,7 @@ export default function HelloWorld(){
             {/* <QuoteText/> */}
 
             <UserCard 
-	            nama="Shofi😺" 
+	            nama="Shofii😺" 
 	            nim="2457301130"
 	            tanggal={new Date().toLocaleDateString()}
 	          />
