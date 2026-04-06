@@ -3,12 +3,14 @@ import './tailwind.css';
 import frameworkData from "./framework.json";
 import FrameworkList from "./FrameworkList";
 import FrameworkListSearchFilter from "./FrameworkListSearchFilter";
+import ResponsiveDesign from "./ResponsiveDesign";
 
 createRoot(document.getElementById("root"))
   .render(
     <div>
         {/* TES */}
         {/* <FrameworkList/> */}
-        <FrameworkListSearchFilter/>
+        {/* <FrameworkListSearchFilter/> */}
+        <ResponsiveDesign/>
     </div>
   );
