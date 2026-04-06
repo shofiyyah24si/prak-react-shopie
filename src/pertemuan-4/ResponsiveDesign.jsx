@@ -26,7 +26,7 @@ export default function ResponsiveDesign() {
 function ResponsiveText() {
   return (
     <p className="text-sm md:text-lg lg:text-xl xl:text-2xl mb-4 text-gray-700">
-      Coba lakukan zoom in atau zoom out. Perhatikan bahwa ukuran teks akan menyesuaikan dengan ukuran layar.
+      Cobaa lakukan zoom in atau zoom out. Perhatikan bahwa ukuran teks akan menyesuaikan dengan ukuran layar.
     </p>
   );
 }
