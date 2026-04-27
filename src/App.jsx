@@ -1,24 +1,27 @@
 import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
+
 const Dashboard = React.lazy(() => import("./pages/main/Dashboard"))
-import Orders from "./pages/main/Orders";
-import Customers from "./pages/main/Customers";
-import NotFound from "./pages/main/NotFound";
-import Error400 from "./pages/main/Error400";
-import Error401 from "./pages/main/Error401";
-import Error403 from "./pages/main/Error403";
-import MainLayout from "./layouts/MainLayout";
-import AuthLayout from "./layouts/AuthLayout";
-import Login from "./pages/auth/Login";
-import Register from "./pages/auth/Register";
-import Forgot from "./pages/auth/Forgot";
-import Loading from "./components/Loading";
+const Orders = React.lazy(() => import("./pages/main/Orders"))
+const NotFound = React.lazy(() => import("./pages/main/NotFound"))
+const Customers = React.lazy(() => import("./pages/main/Customers"))
+const Error400 = React.lazy(() => import("./pages/main/Error400"))
+const Error401 = React.lazy(() => import("./pages/main/Error401"))
+const Error403 = React.lazy(() => import("./pages/main/Error403"))
+
+const MainLayout = React.lazy(() => import("./layouts/MainLayout"))
+const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"))
+
+const Login = React.lazy(() => import("./pages/auth/Login"))
+const Register = React.lazy(() => import("./pages/auth/Register"))
+const Forgot = React.lazy(() => import("./pages/auth/Forgot"))
+
+const Loading = React.lazy(() => import("./components/Loading"))
 
 export default function App() {
 
   return (
     <Suspense fallback={<Loading />}>
-
     
           <Routes>
             <Route element={<MainLayout/>} >
