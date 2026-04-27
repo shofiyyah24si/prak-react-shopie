@@ -2,7 +2,7 @@ import { FcAreaChart } from "react-icons/fc";
 import { FaSearch, FaBell, FaBars } from "react-icons/fa";
 import { useState } from "react";
 import { SlSettings } from "react-icons/sl";
-import SearchModal from "../components/SearchModal";
+import SearchModal from "./SearchModal";
 
 export default function Header({ onToggleSidebar }) {
   const [searchOpen, setSearchOpen] = useState(false);

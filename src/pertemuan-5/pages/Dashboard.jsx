@@ -1,6 +1,6 @@
 import { FaShoppingCart, FaTruck, FaBan, FaDollarSign } from "react-icons/fa";
 import PageHeader from "../components/PageHeader";
-import RecentOrders from "../components/RecentOrders"; // IMPROVISASI
+import RecentOrders from "../components/RecentOrders"; 
 
 export default function Dashboard() {
   return (
@@ -56,7 +56,6 @@ export default function Dashboard() {
 
       </div>
 
-      {/* IMPROVISASI: Tabel recent orders di bawah card count */}
       <div className="px-5">
         <RecentOrders />
       </div>
