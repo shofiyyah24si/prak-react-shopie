@@ -7,6 +7,12 @@ export default function Dashboard() {
     <div id="dashboard-container">
       <PageHeader />
 
+      {/* Banner Selamat Datang */}
+      <div className="mx-5 mt-4 mb-2 bg-hijau rounded-xl px-6 py-4 text-white">
+        <h2 className="text-xl font-bold">Selamat Datang di Sedap Dashboard! 👋</h2>
+        <p className="text-sm opacity-80 mt-1">Pantau semua aktivitas restoran kamu di sini.</p>
+      </div>
+
       {/* Grid Card Count */}
       <div id="dashboard-grid" className="p-5 grid grid-cols-2 xl:grid-cols-4 gap-4">
 
@@ -60,6 +66,8 @@ export default function Dashboard() {
       <div className="px-5">
         <RecentOrders />
       </div>
+
+      <p className="read-the-docs">Selamat Datang di React Git App</p>
 
     </div>
   );
