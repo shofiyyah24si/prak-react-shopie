@@ -12,9 +12,11 @@ export default defineConfig({
       input: {
         main: 'index.html',
         'pertemuan-2': 'pertemuan-2.html',
+        'pertemuan-3': 'pertemuan-3.html',
+        'pertemuan-4': 'pertemuan-4.html',
+        'pertemuan-5': 'pertemuan-5.html',
         'tugas-biodata': 'tugas-biodata.html',
-        'tugas3': 'tugas3.html',
-        'contoh': 'contoh.html',
+        'tugas-p3': 'tugas-p3.html',
       },
     },
   },
