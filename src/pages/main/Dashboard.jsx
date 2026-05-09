@@ -67,7 +67,6 @@ export default function Dashboard() {
         <RecentOrders />
       </div>
 
-      <p className="read-the-docs">Selamat Datang di React Git App</p>
 
     </div>
   );
