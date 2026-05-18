@@ -52,6 +52,12 @@ export default function Sidebar() {
             </NavLink>
           </li>
           <li>
+            <NavLink id="menu-4" to="/components" className={menuClass}>
+              <FaBoxOpen className="mr-4 text-xl" />
+              <span>Components</span>
+            </NavLink>
+          </li>
+          <li>
             <NavLink to="/error400" className={menuClass}>
               <FaExclamationTriangle className="mr-4 text-xl" />
               <span>Error 400</span>
